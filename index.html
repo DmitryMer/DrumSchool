@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Школа игры на барабанах</title>
+	<link rel="icon" href="img/logo.png">
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<link rel="stylesheet" type="text/css" href="style/media.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">	
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<nav>
+			<ul class="nav-city">
+				<li class="nav-menu__sub"><a href="#">Ваш город</a>
+					<ul class="sub__menu">
+						<li><a href="#">Москва</a></li>
+						<li><a href="#">Санкт-Петербург</a></li>
+					</ul>
+				</li>		
+			</ul>
+			<ul class="nav-menu" id="nav">
+				<li><a href="index.html">Главная</a></li>
+				<li><a href="index2.html">О школе</a></li>
+				<li><a href="index3.html">Преподаватели</a></li>
+				<li><a href="index4.html">Цены и акции</a></li>	
+				<li><a href="index5.html">Контакты</a></li>
+			</ul>
+			<ul class="nav-icons">
+				<li><a href="#"><i class="fab fa-vk"></i></a></li>
+				<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+				<li><a href="#"><i class="fab fa-youtube"></i></a></li>
+			</ul>
+
+			<div class="hamburger-menu">
+ 				<input id="menu__toggle" type="checkbox" />
+  				<label class="menu__btn" for="menu__toggle">
+   				 <span></span>
+  				</label>
+  			</div>
+
+		</nav>
+	</header>
+
+	<section class="main">
+
+		<div class="wrapper">
+			<div class="main__content">
+
+				<div class="main__img">
+					<img src="img/drums_icon.png" alt="drum_icon" width="100" height="100" >
+				</div>
+
+				<div class="main__container">
+					<h5>Школа ударных Джона Бонэма</h5>
+					<div>
+						<p>8-800-000-00-000</p>	
+						<a href="#" class="btn"><i class="fas fa-mobile-alt"></i> Заказать звонок</a>	
+					</div>
+				</div>
+
+				<h1>Школа игры на барабанах в Санкт-Петербурге</h1>
+				<p>Запишитесь на пробное занятие в школу игры на барабанах бесплатно! Преподаватели нашей школы — участники групп: Metallica, Slipknot, Iron Maiden, Led Zeppeline, Rolling Stones и других.</p>
+			</div>
+
+			<div class="main__button">
+				<a href="#main__sale" class="main__big_button btn">Записаться на бесплатный урок</a>
+			</div>
+		</div>
+
+		<div class="main__sale" id="main__sale">
+			<div class="wrapper">
+				<p> Концерты — еженедельные джемы — бесплатные съемки видео-каверов — индивидуальные программы для наших учеников. Чтобы получить бесплатный урок заполните поля ниже и наш администратор перезвонит вам в ближайшее время!</p>
+
+				<form class="main__form">
+					<div class="main__form_container">
+							<input type="text" placeholder="Введите имя" required>
+							<input type="text" placeholder="Введите телефон" required>
+					</div>
+					<button type="submit" class="main__form_btn btn">Записаться</button>
+
+					<div>
+						<label id="colorTxt" name="a">
+							<input type="checkbox" id="checkBox" onchange="change()" name="a" required> Я ознакомился с <span>пользовательским соглашением </span>
+						</label>
+					</div>
+				</form>
+				<div class="chevron"><a href="index.html"></a></div>
+			</div><!-- wrapper -->
+		</div>
+		
+	</section>
+
+	<footer>
+		<div class="footer__flex">
+			<p>#урокиСПБ © 2020</p>
+			<a href="#">Политика конфиденциальности</a>
+			<p>Мы в социальных сетях</p>
+		</div>
+		<ul class="footer-icons">
+				<li><a href="#"><i class="fab fa-vk"></i></a></li>
+				<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+				<li><a href="#"><i class="fab fa-youtube"></i></a></li>
+		</ul>
+	</footer>
+	<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,187 @@
+@media screen and (max-width: 1280px) {
+	
+	.main__content h1 {
+		font-size: 40px;
+	}
+
+	.teach__content_media {
+
+	}
+
+}	
+
+@media  screen and (max-width: 1024px) {
+
+	.main__content p {
+		font-size: .9em;
+		margin-top: 15px;
+	}
+
+	.main__sale p {
+		font-size: 25px;
+	}
+
+	.nav-icons {
+		display: none;
+	}
+
+	.main__content h1 {
+		font-size: 35px;
+	}
+
+	.footer__flex > p:nth-of-type(2) {
+		display: none;
+	}
+
+	.about__artic h2,
+	.teach h2,
+	.prices h2, 
+	.adress h2  {
+		padding: 30px 0 30px;
+		font-size: 30px;
+		text-shadow: 5px 5px 5px #d4d4d4;
+	}
+
+	.about__content img {
+		width: 10em;
+		height: 10em;
+	}
+
+	.about__content p {
+		font-size: 14px;
+	}
+
+	.teach__content_container {
+		flex-direction: column;
+		text-align: center;
+	}
+
+}
+
+
+@media  screen and (max-width: 768px) {
+
+	.hamburger-menu {
+		display: block;
+	}
+	
+	.main__img {
+		display: none;
+	}
+
+	.nav-icons {
+		display: none;
+	}
+
+	.main__container h5 {
+		margin: 50px 0 0 0px; 
+	}
+
+	.main__sale p {
+		font-size: 18px;
+	}
+
+	.main__form_container input[type=text] {
+		height: 40px;
+	}
+
+	.chevron {
+		display: none;
+	}
+
+	.about__content p {
+		font-size: 12px;
+		margin: 0 0 50px 20px;
+	}
+
+	.about__slide h2 {
+		padding: 40px 0 25px;
+		font-size: 20px;
+	}
+
+	.about__slide_list li,
+	.about__facts li {
+		font-size: 14px;
+	}
+
+	.about__facts {
+		margin: 30px;
+	}
+
+	.about__facts h2 {
+		font-size: 20px;
+	}
+
+	.teach__content_media {
+		flex-direction: column;
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	.teach__content_img {
+		margin-bottom: 10px;
+	}
+
+	.nav-menu > li {
+		display: none;
+	}
+
+}
+
+@media  screen and (max-width: 620px) {
+	.footer__flex {
+		flex-direction: column;
+		padding-left: 20px;
+	}
+
+	.about__content img {
+		display: none;
+	}
+
+	.about__slide_list li,
+	.about__facts li {
+		font-size: 12px;
+	}
+
+	.teach__content_text p {
+		font-size: 14px;
+	}
+}
+
+@media  screen and (max-width: 480px) {
+	.main__big_button {
+		padding: 18px 20px;
+		font-size: 14px;
+	}
+
+	.footer__flex {
+		font-size: 14px;
+	}
+
+	.about__artic h2,
+	.teach h2,
+	.prices h2, 
+	.adress h2  {
+		padding: 25px 0 25px;
+		font-size: 20px;
+		text-shadow: 3px 3px 3px #d4d4d4;
+	}
+
+	.adress {
+		font-size: 14px;
+	}
+}
+
+@media  screen and (max-width: 320px) {
+	.main__big_button {
+		padding: 16px 18px;
+		font-size: 12px;
+	}
+
+	.teach__content_text p {
+		font-size: 12px;
+	}
+
+}
+
+
